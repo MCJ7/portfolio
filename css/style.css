@@ -1,0 +1,148 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-family: "Lato";
+  color: white;
+}
+#body {
+  background-color: black;
+}
+.hero {
+  display: grid;
+  max-width: 1366;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: 5vw;
+}
+.hero img {
+  height: 15vw;
+  margin-left: 30vw;
+  width: 11.25vw;
+  min-height: 10vw;
+  min-width: 12vw;
+}
+.hero p {
+  margin-bottom: 6vw;
+  text-align: justify;
+  margin-right: 20vw;
+  margin-top: 2vw;
+}
+.img-first {
+  height: 48vw;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+.newPage{
+  height: 2vw;
+  width: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+h1,
+h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(255, 0, 170);
+}
+.icon-link {
+  text-decoration: none;
+  font-size:5vw;
+  color: rgb(0, 255, 255);
+}
+.icon-link:hover {
+  color: rgb(255, 0, 200);
+}
+#skill {
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  grid-auto-flow: 5vw;
+  padding-left: 18vw;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+}
+.mysql {
+  padding-top: 40px;
+  font-size: 5vw;
+  color: rgb(0, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#project {
+  background-color: rgb(226, 242, 245);
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+#project p {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.img-skill {
+  margin-top: 40px;
+  font-size: 6vw;
+  color: rgb(0, 255, 255);
+}
+#form {
+  width: 40rem;
+  height: 5rem;
+  margin-left: 26vw;
+}
+.button-submit {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.text-area {
+  resize: none;
+}
+.img-project {
+  width: 35.55vw;
+  height: 20vw;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.img-project:hover {
+  transform: scale(2);
+  transform-origin: top right;
+  align-items: center;
+  align-content: center;
+}
+#rental:hover {
+  transform-origin: top left;
+}
+#library:hover {
+  transform-origin: top right;
+}
+.rrss {
+  display: grid;
+  max-width: 1366;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: 2vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding-bottom: 50px;
+}
+.external {
+  display: grid;
+  max-width: 1366;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: 2vw;
+  margin-top: 2vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding-bottom: 10px;
+}
